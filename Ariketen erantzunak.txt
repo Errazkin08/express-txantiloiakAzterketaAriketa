@@ -1,0 +1,32 @@
+1: d
+
+2: npm install -g nodemon
+
+3: button ordez submit jarri behar da
+
+4:Post eskaera bat da, ondorioaz app.post() izan beharko zen baina app.get egiten du.
+
+5:Formulario batean datuak bidali behar badituzu kodifikatu behar dira, ondorioz index.js-n hau jarri behar da: app.use(express.urlencoded())
+
+6: c
+
+7:Zerbait erantzun behar dugu beti, res.send, res.render.res.json edo horrelako Zerbait nahiz eta testu hutsa izan
+
+8: Ariketa orrian dago kode osoa
+
+9: c eta d
+
+10: localhost:3000/test?x=can&y=dy
+
+11:  {"x":"can", "y":"dy"} //json bezela gordetzen du
+
+12:localStorage.setItem('datuak',JSON.stringify.datuak)  gero datuak lortzeko json bezela JSON.parse() erabili behar da
+
+13: JSON.parse(localStorage.getItem("test")).pass
+
+14: a)localStorage.removeItem("izena") 
+    b)localStorage.clear()
+
+15: npm install node
+
+16:
